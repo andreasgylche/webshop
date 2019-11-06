@@ -1,31 +1,131 @@
 body{
   background: White;
+  font-family: sans-serif, "Segoe UI";
+}
+.*{
+  box-sizing: border-box;
 }
 
-.rabBox{
-  background: green;
-  margin: 10px 10px;
+
+
+
+  .rabBox {
+    background: rgba(245, 245, 220, 0.83);
+    margin: 10px 10px;
+  }
+
+  .rabTxt {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .vareImg {
+    margin: 0 10px 0 0;
+
+  }
+
+  .vareTxt {
+    margin: 10px 30px 0 30px;
+  }
+
+  .prod {
+    margin: 0 0 5px 0;
+  }
+
+  .desc {
+    margin: 0 0 5px 0;
+  }
+
+  .off {
+    color: red;
+  }
+
+  .flere {
+    float: left;
+    margin: 10px 30px 10px 30px;
+  }
+
+  .dropmenu {
+    border: none;
+    background-color: #fcfcfc;
+    margin: 0 30px 0 30px;
+    padding: 10px;
+  }
+
+  .knap {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+  }
+
+  .whoBox {
+    background: rgba(245, 245, 220, 0.83);
+    margin: 10px 10px;
+  }
+
+  .whoTxt {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .polBox {
+    background: rgba(175, 238, 251, 0.82);
+    margin: 10px 10px;
+  }
+
+  .polTxt {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+  }
+
+  #footer {
+    font-size: medium;
+  }
+
+  .a {
+    float: left;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    text-align-last: left;
+  }
+
+  .newsBox {
+    margin: 10px 10px 20px 10px;
+  }
+
+  .newsTxt {
+    padding: 20px 0;
+  }
+
+  .newsKnap {
+    border: none;
+    background-color: rgba(175, 238, 251, 0.82);
+    color: black;
+    padding: 10px 20px;
+  }
+
+  .form {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px 20px;
+  }
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .rabBox{
+    margin: 20px 250px;
+    background: blue;
+  }
+
 }
 
-.rabTxt{
-  text-align: center;
-  padding: 20px 20px 20px 20px;
-}
 
-.vareImg{
-  margin: 0 10px 0 0;
-}
 
-.vareTxt{
-  margin: 10px 30px 10px 30px;
-}
 
-.off{
-  color: red;
-}
 
-.flere{
-  float: left;
-  margin: 10px 30px 10px 30px;
 
-}
+
