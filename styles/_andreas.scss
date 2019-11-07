@@ -286,6 +286,77 @@ footer{
     }
   }
 
+  .burger{
+    display: none;
+  }
+
+  .cart{
+    margin-right: 0;
+    margin-left: 20px;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand{
+    flex-grow: 1;
+  }
+
+  nav{
+    position: relative;
+    transform: translateX(0);
+    width: auto;
+    height: auto;
+    background: transparent;
+    display: inline-block;
+
+    .navLinks{
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .navLink{
+      color: #2d2d2d;
+      font-weight: 400;
+      font-size: 15px;
+
+      &:nth-of-type(2){
+        margin: 0 20px;
+      }
+    }
+  }
+
+  /*
+
+  nav{
+  display: block;
+  position: absolute;
+  transform: translateX(-70vw);
+  transition: transform .2s ease-in;
+  z-index: 1;
+
+  &.open{
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 70vw;
+    background: white;
+    transform: translateX(0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .navLink{
+      color: #2d2d2d;
+    }
+  }
+
+   */
+
 }
 
 @media only screen and (min-width: 1200px) {
