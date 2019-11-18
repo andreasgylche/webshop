@@ -1,0 +1,38 @@
+/* ----- dette scss afsnit tilører ThankU.html ---- */
+.who{
+  padding: 30px 60px;
+  background-color: lightpink;
+  text-align: center;
+  margin: 15px ;
+  font-weight: bolder;
+}
+
+.return{
+  padding: 30px 60px;
+  background-color: lightblue;
+  text-align: center;
+  margin: 15px ;
+  font-weight: bolder;
+}
+
+
+.receipt{
+  color: darkgrey;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .toboks{
+  display: grid;
+  grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
