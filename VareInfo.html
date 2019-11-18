@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Fortæller det er html5 -->
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - alt det som man ikke ser som selve indholdet -->
+<head>
+
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+    <meta charset="utf-8">
+
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>Sigende titel</title>
+
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<!-- i <body> har man alt indhold på siden -->
+<body>
+
+    <section id="rabat">
+        <div class="rabBox">
+            <h1 class="rabTxt">GET 10% OFF YOUR FIRST PURCHASE</h1>
+        </div>
+    </section>
+
+    <section id="vare">
+        <div class="vareImg">
+            <img src="images/Jacket.png" width="375">
+        </div>
+        <div class="flere">
+            <img src="images/Jacket.png" width="75">
+            <img src="images/Jacket.png" width="75">
+            <img src="images/Jacket.png" width="75">
+            <img src="images/Jacket.png" width="75">
+        </div>
+        <div class="vareTxt">
+            <h2 class="prod">Puffer Jack Jacket</h2>
+            <p class="desc">Placeholder</p>
+            <h4 class="price">€40,-</h4>
+            <h4 class="off">20% OFF</h4>
+        </div>
+
+        <select class="dropmenu">
+            <option value="0">Vælg størrelse</option>
+            <option value="1">S</option>
+            <option value="2">M</option>
+            <option value="3">L</option>
+            <option value="4">XL</option>
+        </select>
+        <button type="button" class="knap">Add to cart</button>
+    </section>
+
+    <section id="us">
+        <div class="whoBox">
+            <h1 class="whoTxt">WHO ARE WE</h1>
+        </div>
+        <div class="polBox">
+            <h1 class="polTxt">RETURN POLICY</h1>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="newsBox">
+            <h4 class="newsTxt">GET OUR NEWSLETTER, AND BE THE FIRST TO KNOW WHEN WE HAVE NEW STOCK</h4>
+            <form action="/action_page.php">
+                <input type="text" name="Email" value="Enter Email..." class="form">
+                <button type="button" class="newsKnap">YES PLEASE</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="footer">
+        <a href="" class="a">CUSTOMER SERVICE</a>
+        <a href="" class="a">DELIVERY</a>
+        <a href="" class="a">TRACK ORDER</a>
+        <a href="" class="a">GPRP</a>
+    </section>
+
+</body>
+</html>

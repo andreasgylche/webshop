@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["_andreas.scss"],"names":[],"mappings":"AAAA,EACE,QAAS,CACT,SAAU","file":"main.css","sourcesContent":["*{\r\n  margin: 0;\r\n  padding: 0;\r\n}"]}
+=======
+{"version":3,"sources":["_andreas.scss","_christian.scss"],"names":[],"mappings":"AAAA,EACE,QAAS,CACT,SAAU,CCFZ,KACE,eAAiB,CAGnB,QACE,gBAAiB,CACjB,WAAiB,CAGnB,QACE,iBAAkB,CAClB,YAA4B,CAG9B,SACE,iBAAkB,CAGpB,SACE,gBAA2B,CAG7B,KACE,SAAU,CAGZ,OACE,UAAW,CACX,gBAA2B","file":"main.css","sourcesContent":["*{\r\n  margin: 0;\r\n  padding: 0;\r\n}","body{\r\n  background: White;\r\n}\r\n\r\n.rabBox{\r\n  background: green;\r\n  margin: 10px 10px;\r\n}\r\n\r\n.rabTxt{\r\n  text-align: center;\r\n  padding: 20px 20px 20px 20px;\r\n}\r\n\r\n.vareImg{\r\n  margin: 0 10px 0 0;\r\n}\r\n\r\n.vareTxt{\r\n  margin: 10px 30px 10px 30px;\r\n}\r\n\r\n.off{\r\n  color: red;\r\n}\r\n\r\n.flere{\r\n  float: left;\r\n  margin: 10px 30px 10px 30px;\r\n\r\n}"]}
+>>>>>>> Christian
